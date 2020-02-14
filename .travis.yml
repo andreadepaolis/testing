@@ -1,5 +1,19 @@
+dist: xenial
+
 language: java
+
 jdk:
- -openjdk13
-os: osx
-script: ant build
+
+-openjdk13
+
+addons:
+
+  apt:
+
+   packages:
+
+      - ant
+
+script:
+
+- ant build
