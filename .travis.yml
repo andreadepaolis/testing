@@ -1,5 +1,5 @@
 language: java
 jdk:
  -openjdk13
- os: osx
+os: osx
 script: ant build
