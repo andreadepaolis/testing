@@ -2,6 +2,8 @@ dist: xenial
 
 language: java
 
+os: osx
+
 jdk:
 
 -openjdk13
